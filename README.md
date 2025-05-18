@@ -11,4 +11,6 @@ Everything you need to start building is right here.
 
 Winners Announced: On or around July 26, 2025 (10:00 am Pacific Time).
 
+Join the Bolt Discord: https://discord.com/invite/stackblitz
+
 Make sure to register to the Hackathon at https://worldslargesthackathon.devpost.com/
