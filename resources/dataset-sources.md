@@ -1,85 +1,94 @@
-🧠 AI Tools Directory
+📊 Dataset Sources Directory
+This file lists curated, high-quality dataset repositories and platforms for building, training, and testing machine learning models. These range from general-purpose collections to domain-specific datasets in vision, NLP, audio, and more.
 
-This file contains a curated list of powerful AI tools and platforms that can help accelerate development, automate workflows, and enhance productivity. These tools cover a range of functions from coding assistance and image generation to text analysis and audio transcription.
+🌐 General & Aggregated Repositories
+Kaggle Datasets
+Description: Vast collection of user-submitted and official datasets, with built-in exploration and notebook functionality.
 
-🔤 Natural Language Processing (NLP)
-OpenAI GPT-4
-Description: State-of-the-art language model capable of text generation, summarization, Q&A, translation, and more.
+Link: https://www.kaggle.com/datasets
 
-Link: https://platform.openai.com
+Google Dataset Search
+Description: A search engine specifically for datasets across the web.
 
-Hugging Face Transformers
-Description: Open-source library offering pre-trained models for text, vision, and audio. Great for research and production use.
+Link: https://datasetsearch.research.google.com
 
-Link: https://huggingface.co
+Hugging Face Datasets
+Description: Curated collection of over 10,000 NLP and multimodal datasets accessible with Python via datasets library.
 
-👩‍💻 AI Code Assistants
-Cursor
-Description: AI-powered code editor built on VS Code, with built-in GPT-4 and Copilot-style code completion, refactoring, and code chat features.
+Link: https://huggingface.co/datasets
 
-Link: https://www.cursor.so
+🧠 NLP & Text Datasets
+The Pile
+Description: An 800GB dataset for training large language models, created by EleutherAI.
 
-Codeium
-Description: A free AI-powered code completion tool that supports multiple languages and IDEs.
+Link: https://pile.eleuther.ai
 
-Link: https://codeium.com
+Common Crawl
+Description: Massive web scrape corpus updated monthly, useful for large-scale pretraining.
 
-🖼️ Image & Video Generation
-DALL·E
-Description: Generate images from natural language prompts using OpenAI’s DALL·E model.
+Link: https://commoncrawl.org
 
-Link: https://openai.com/dall-e
+Project Gutenberg
+Description: Public domain books and literary texts, ideal for classical language modeling.
 
-Runway ML
-Description: Creative toolkit for AI-powered video editing, motion tracking, and more.
+Link: https://www.gutenberg.org
 
-Link: https://runwayml.com
+🖼️ Image & Vision Datasets
+ImageNet
+Description: Large-scale visual database designed for visual object recognition research.
 
-Replicate
-Description: Run machine learning models in the cloud with an easy API interface.
+Link: https://image-net.org
 
-Link: https://replicate.com
+COCO (Common Objects in Context)
+Description: Image dataset for object detection, segmentation, and captioning.
 
-🎙️ Audio & Speech
-Whisper by OpenAI
-Description: Open-source speech-to-text model that supports multiple languages with high accuracy.
+Link: https://cocodataset.org
 
-Link: https://github.com/openai/whisper
+Open Images Dataset
+Description: A large-scale dataset with image-level labels and bounding boxes, by Google.
 
-Descript
-Description: All-in-one audio and video editing app with AI transcription, voice cloning, and screen recording.
+Link: https://storage.googleapis.com/openimages/web/index.html
 
-Link: https://www.descript.com
+🎙️ Audio & Speech Datasets
+LibriSpeech
+Description: Large corpus of read English speech derived from audiobooks.
 
-🧰 Multimodal & General Platforms
-Zapier + OpenAI
-Description: Automate workflows with GPT via Zapier integrations—generate emails, summaries, and more.
+Link: https://www.openslr.org/12
 
-Link: https://zapier.com/blog/openai-zapier
+Common Voice by Mozilla
+Description: Open-source, multilingual voice dataset to train speech recognition systems.
 
-LangChain
-Description: Framework for developing applications powered by language models, including agents, memory, tools, and chains.
+Link: https://commonvoice.mozilla.org/en/datasets
 
-Link: https://www.langchain.com
+UrbanSound8K
+Description: Dataset for environmental sound classification with 10 classes like sirens and dog barks.
 
-🧪 Experimental / Cutting-Edge
-Perplexity AI
-Description: AI search engine that answers questions with cited sources.
+Link: https://urbansounddataset.weebly.com/urbansound8k.html
 
-Link: https://www.perplexity.ai
+📈 Tabular & Structured Datasets
+UCI Machine Learning Repository
+Description: Classic repository of over 500 datasets for tabular data analysis and benchmarking.
 
-AutoGPT
-Description: Experimental open-source project that chains GPT-4 calls to complete tasks autonomously.
+Link: https://archive.ics.uci.edu/ml/index.php
 
-Link: https://github.com/Torantulino/Auto-GPT
+Awesome Public Datasets
+Description: GitHub-curated list of public datasets categorized by domain (finance, healthcare, sports, etc.).
 
-📦 Model Deployment & Hosting
-Hugging Face Spaces
-Description: Deploy AI apps using Gradio or Streamlit for free, directly from your repo.
+Link: https://github.com/awesomedata/awesome-public-datasets
 
-Link: https://huggingface.co/spaces
+💬 Multilingual & Translation
+Tatoeba
+Description: Collection of user-contributed example sentences in hundreds of languages.
 
-Render
-Description: Cloud platform to host full-stack applications, including AI models and APIs.
+Link: https://tatoeba.org
 
-Link: https://render.com
+OPUS (Open Parallel Corpus)
+Description: Multilingual corpus for machine translation and NLP, from the University of Helsinki.
+
+Link: https://opus.nlpl.eu
+
+🔒 Privacy-Conscious Datasets
+Synthetic Data Vault (SDV)
+Description: Python library for generating synthetic tabular data for privacy-preserving machine learning.
+
+Link: https://sdv.dev
