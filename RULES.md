@@ -6,6 +6,8 @@
 
 ---
 
+*Read the full rules here: https://worldslargesthackathon.devpost.com/rules
+
 ### 1. Dates and Timing
 
 * **Registration Period:** April 16, 2025 (10:00 AM PT) – June 30, 2025 (2:00 PM PT)
