@@ -1,0 +1,107 @@
+# 🔧 Best Practices for Using Bolt
+
+Maximize your efficiency and reduce costs by following these best practices when using [Bolt.new](https://bolt.new). Understanding how token usage works and how to optimize your interactions with Bolt can save time, money, and frustration.
+
+---
+
+## 🎯 Goal: Maximize Token Efficiency
+
+Bolt runs on **Anthropic’s Claude 3.7 Sonnet** AI model. When you use Bolt, you're consuming **tokens**, which are:
+
+> The smallest units of a language model — these can be words, subwords, characters, or even bytes.
+
+---
+
+## 💬 How Are Tokens Used?
+
+Tokens are consumed in three main ways:
+
+1. **Chat messages**: Any text sent to and from the LLM.
+2. **Code generation**: Code written by the LLM based on your prompts.
+3. **Code analysis**: Reading your existing code to understand manual changes you've made.
+
+---
+
+## ⚙️ How Bolt Minimizes Token Usage
+
+The Bolt team is constantly shipping product updates to improve token efficiency. But there are things *you* can do too. Here's how you can help reduce token use on your end:
+
+---
+
+## 🧠 Strategies for Reducing Token Usage
+
+### 1. Use Discussion Mode
+Use **Discussion Mode** instead of Build Mode when you want to:
+
+- Ask for help
+- Troubleshoot
+- Plan or brainstorm
+
+> ⚠️ Discussion Mode uses **~90% fewer tokens** than Build Mode.
+
+---
+
+### 2. Avoid Repeating “Attempt Fix”
+Repeatedly clicking **Attempt fix** can rapidly consume tokens. After each attempt:
+
+- Review what happened
+- Adjust your prompt or solution
+- Research and fix manually if the AI gets stuck
+
+---
+
+### 3. Add Error Handling & Logging
+If you're in an error loop:
+
+- Ask Bolt to **add detailed logging**
+- Include **error handling** to catch issues early
+- Logs help the AI pinpoint the exact problem in future fixes
+
+---
+
+### 4. Use the Rollback Feature
+Bolt includes a rollback feature, which:
+
+- Reverts your project to a previous state
+- **Does not consume tokens**
+- Works like an "Undo" button
+
+> 🔒 **No redo** is available — rollback is permanent.
+
+---
+
+### 5. Build Incrementally
+- Start by scaffolding your app
+- Add **one new feature at a time**
+- Keep prompts small and manageable
+
+---
+
+### 6. Use Specific and Focused Prompts
+Vague prompts = inefficient use of tokens.
+✅ Instead, do this:
+
+- Mention **specific files or functions**
+- Define **clear goals**
+- Read: [Prompting Effectively](https://bolt.new/help/prompting)
+
+---
+
+### 7. Reduce Project Size
+Larger projects use more tokens. Every file, line of code, and conversation adds up.
+
+> Keep your project lean to minimize context cost.
+
+---
+
+## 🧹 Cleaning Up Your Project
+
+### Use [knip.dev](https://knip.dev) to Remove Unused Files
+
+1. **Backup your project**:
+   - Export → **Download** a local copy
+   - Export → **Open in StackBlitz**, then click **Fork** and rename the project
+
+2. **Run the following command in the Bolt terminal**:
+   ```bash
+   npx knip --production --fix --allow-remove-files

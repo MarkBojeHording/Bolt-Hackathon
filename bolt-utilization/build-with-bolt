@@ -1,0 +1,55 @@
+# Building with Bolt
+
+## Getting Started Guide for [Bolt.new](https://bolt.new)
+
+Welcome to Bolt! This guide is designed to help you get started building your next project with Bolt. Whether you're a developer or a non-developer, we recommend working through this document to get the most out of Bolt — but feel free to jump to the sections that interest you most.
+
+If you've already started building, no worries! This guide can still serve as a helpful reference throughout your journey.
+
+---
+
+## ⚡ What is Bolt?
+
+[Bolt.new](https://bolt.new) is an in-browser AI web development agent that uses [StackBlitz WebContainers](https://webcontainers.io/) to enable full-stack application development directly in your browser. It offers a chat-based interface where you prompt an AI agent to make code changes in real time.
+
+### Key Features:
+- Full-stack development environment in the browser
+- Supports major web languages and frameworks
+- Integrates with:
+  - **Netlify** (for deployment & hosting)
+  - **Supabase** (for database, authentication, file storage)
+  - **Expo** (for mobile app development)
+
+> ⚠️ Bolt is a powerful tool, but it works best when paired with thoughtful prompting and a basic understanding of web development.
+
+---
+
+## 🛠 How Does It Work?
+
+You start by telling Bolt what you want to build.
+
+**Example**:
+> "Build a task manager app using React and Supabase."
+
+You can use simple prompts, or enhance them for better results. The more specific you are, the better Bolt will perform.
+
+**Tips for Better Results:**
+- Be clear and detailed
+- Define your goals and success criteria
+- Use enhanced prompts or describe functionality in steps
+
+---
+
+## 🤖 What is an LLM?
+
+LLM stands for **Large Language Model**. Bolt uses Anthropic's **Claude 3.7 Sonnet** to generate code from your prompts. Another popular LLM you may know is OpenAI's **ChatGPT**.
+
+> ℹ️ Bolt.new does **not** use customer data to train Claude.
+
+Think of an LLM as a very advanced autocomplete. It doesn’t “know” facts in the traditional sense, but it can generate code and ideas based on patterns learned during training.
+
+---
+
+## 🔢 Understanding Tokens
+
+Tokens are small chunks of text, such as:
