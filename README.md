@@ -1,6 +1,6 @@
 # 🤖 Bolt AI Hackathon 2025
 
-Welcome to the official repository for the AI Hackathon! 🚀  
+Welcome to the repository for the AI Hackathon! 🚀  
 Everything you need to start building is right here.
 
 ## 📅 Event Info
